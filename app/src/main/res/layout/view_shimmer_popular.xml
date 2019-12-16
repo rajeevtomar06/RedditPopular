@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:background="@android:color/darker_gray"
+            android:maxLines="2"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+
+            android:padding="@dimen/_5sdp"
+            android:text="Bribary at its finest"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:orientation="horizontal">
+        <View
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:textSize="16sp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="funny"
+            />
+
+            <View
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:background="@android:color/darker_gray"
+                android:paddingStart="@dimen/_5sdp"
+                android:textSize="16sp"
+                android:text="i.reddit.com"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+
+
+
+        <View
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/darker_gray"
+            android:text="24.6k"
+            />
+
+            <View
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:background="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@android:color/darker_gray"
+                android:text="300"
+                />
+
+            <View
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:background="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Comments"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:background="@android:color/darker_gray"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+
+
+</layout>

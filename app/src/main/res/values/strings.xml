@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Reddit</string>
+
+    <string name="comment_lbl">Comments</string>
+    <string name="img_not_available">Image not available</string>
+    <string name="favorite">Favorite</string>
+    <string name="unfovorite">unfavorite</string>
+    <string name="share">Share</string>
+
+    <string name="favorite_confirm_header">Do you want to make it Favourite?</string>
+    <string name="delete_favorite_header">Are your sure? You want to delete it.</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="favorite_confirm">It has been saved in Favorites.</string>
+    <string name="favorite_delete">It has been deleted from Favorite list</string>
+    <string name="favorite_not_found">No item found in Favorite</string>
+
+</resources>
